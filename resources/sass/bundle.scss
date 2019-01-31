@@ -1,0 +1,59 @@
+.terms {
+    .terms-background {
+width:100%;
+}
+}
+
+.movieList {
+.movieTitle {
+color:$white;
+font-weight:600;
+}
+.flims {
+    color:$light-grey;
+    font-weight: 500;
+}
+
+.buttonRent {
+    text-align:right;
+    button {
+    margin-right: 15px;
+    padding: 5px 29px;
+    border-radius: 10px;
+}
+button:focus {
+    box-shadow: none;
+}
+.first-btn {
+    background: $white;
+    color:$black;
+    border: 1px solid $white;
+}
+.second-btn {
+    background: $red;
+    color:$white;
+    border: 1px solid $red;
+}
+.third-btn {
+    background: $transparent;
+    color:$white;
+    border:1px solid $white;
+}
+} //button rent
+.icons {
+    padding-right: 10px;
+    padding-top: 3px;
+ .fbWidth {
+    width:19px;
+}
+.twitWidth {
+    width:30px;
+}
+} //icons
+ .movieListImg {
+    .col-2 {
+        margin-bottom:30px;
+    }
+
+ }
+}

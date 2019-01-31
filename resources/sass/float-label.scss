@@ -1,0 +1,115 @@
+.float-label-control {
+    position: relative;
+    margin-bottom: 1.875rem;
+    ::-webkit-input-placeholder,
+    :-moz-placeholder,
+    ::-moz-placeholder,
+    :-ms-input-placeholder {
+        color: transparent;
+    }
+    input:-webkit-autofill,
+    textarea:-webkit-autofill {
+        background-color: $bg-dark !important;
+        color: $white !important;
+        transition: all 999999s ease-in-out 0s;
+        transition-property: background-color, color;
+        &:hover,
+        &:focus,
+        &:active {
+            transition: all 999999s ease-in-out 0s;
+            transition-property: background-color, color;
+        }
+    }
+    input,
+    textarea,
+    .label-float {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    input:focus {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        border-bottom-width: 2px;
+        padding-bottom: 0;
+    }
+    textarea:focus {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        border-bottom-width: 2px;
+        padding-bottom: 0;
+        padding-bottom: 4px;
+    }
+    input,
+    textarea,
+    select {
+        display: block;
+        width: 100%;
+        padding: 0.1em 0em 1px 0em;
+        border: none;
+        border-radius: 0px;
+        border-bottom: 1px solid $light-grey;
+        outline: none;
+        margin: 0px;
+        background: none;
+    }
+    textarea {
+        padding: 0.1em 0em 5px 0em;
+    }
+}
+
+.input-group {
+    label.label-float,
+    .form-control {
+        font-size: 1rem;
+        font-weight: normal;
+        letter-spacing: 0.5px;
+        color: $title-light;
+    }
+}
+
+.float-label-control {
+    .label-float {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-14px);
+        left: 12px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        font-size: 1rem;
+        font-weight: normal;
+        letter-spacing: 0.5px;
+        color: $title-light;
+    }
+    input:not(.empty) + .label-float,
+    textarea:not(.empty) + .label-float {
+        z-index: 1;
+        top: -0.01rem;
+        font-size: 0.875rem;
+        color: $light-grey;
+        font-weight: normal;
+    }
+    input:not(.empty) + .label-float,
+    textarea:not(.empty) + .label-float {
+    }
+}
+
+.input-group .form-control {
+    background: none;
+    height: 44px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    padding-left: 12px;
+}
+
+.float-label-control {
+    textarea.form-control {
+        height: 80px;
+    }
+    select.form-control {
+        font-size: 1rem;
+        font-weight: normal;
+    }
+}

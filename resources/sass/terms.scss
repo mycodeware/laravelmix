@@ -1,0 +1,33 @@
+.terms {
+    color:$white;
+    position: relative;
+        .termsImg {
+               background-image: url('https://www.channelfight.com/wp-content/uploads/2017/02/Jackie-Chan.jpg');
+               height:330px;
+               width: 100%;
+               background-size:cover;
+               background-position: center;
+                    .terms-box {
+                     background-image: url('../images/terms_box.svg');
+                     background-size:cover;
+                     width:250px;
+                     height: 70px;
+                     position:absolute;
+                     bottom: 0px;
+                     left:90px;
+                 }
+                           h4 {
+                            color:$red;
+                            font-size:15px;
+                            position:absolute;
+                            bottom: 0px;
+                            left: 144px;
+                            padding-bottom: 28px;
+                            font-weight: bold;
+                 }
+             }
+
+}
+.terms-content {
+    color:$white;
+}

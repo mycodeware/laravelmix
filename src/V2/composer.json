@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/v2",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jet\\Publicam\\JetEngage\\V2\\Providers\\V2ServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Jet\\Publicam\\JetEngage\\V2\\": ""
+        }
+    }
+}

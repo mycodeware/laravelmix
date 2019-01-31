@@ -1,0 +1,165 @@
+#social {
+.feedHeader {
+    color:$red;
+    padding-left:6px;
+    font-weight:bold;
+}
+.feedsNav {
+  position: fixed;
+  z-index: 1;
+   background: $light-grey;
+   color: $black;
+    overflow-x: hidden;
+    padding-top: 13px;
+    padding-left: 30px;
+    border-radius: 10px;
+    width: 19%;
+    @media (min-width: 320px) {
+        width: 100%;
+        position:relative;
+    }
+          .celebLine {
+            border-top: 2px solid #b00606;
+            margin-top: 0px;
+            width: 22%;
+             margin-left: 0px;
+              margin-top:-5px;
+    }
+    .barFeed {
+        padding: 3px 30px 7px 0px;
+         list-style: none;
+         p {
+            display:inline-flex;
+         }
+         i {
+            margin-top: 6px;
+           margin-right: 8px;
+         }
+         a {
+        text-decoration: none;
+        font-size: 13px;
+        color: $black;
+        display: block;
+        font-weight: 500;
+          }
+    }
+     a:hover {
+        color: $red;
+               }
+        } //feeds
+.feedsMain {
+    background:$white;
+    border:1px solid $white;
+    border-radius: 10px;
+            .feedsDesc {
+                padding: 15px;
+                .imgText {
+                  margin-bottom:16px;
+                  .social-icon {
+                    width: 20px;
+                    float: right;
+                    margin-top: -21px;
+                    border-radius: 3px;
+                  }
+                  .blueColor {
+                    color:$blue;
+                    font-weight: bold;
+                  }
+              }
+                    .avatar {
+                            vertical-align: middle;
+                            width: 40px;
+                             height: 40px;
+                             border-radius: 50%;
+                             float: left;
+                            }
+                    .feedMainImg {
+                        width:100%;
+                            }
+                            .shares {
+                                    list-style-type: none;
+                                    display: inline-flex;
+                                    padding-left: 0px;
+                                    padding-top: 10px;
+                                    width:100%;
+                                    position:relative ;
+                                    li {
+                                        padding-right: 40px;
+                                    }
+                                   .views {
+                                    right:0;
+                                    position: absolute;
+                                    padding-right:0px;
+                                   }
+                                   .shareNum {
+                                    right: 74px;
+                                    position: absolute;
+                                    padding-right:0px;
+                                   }
+                                    .count {
+                                        padding-right:20px;
+                                    }
+                            }
+                        } //feedsDesc
+            } //feedsMain
+
+.celebFollow {
+     position: fixed;
+    color: $black;
+    background: $light-grey;
+    padding: 13px 12px;
+    border-radius: 10px;
+    width:19%;
+    .celebHeader {
+        font-weight: bold;
+        color:$red;
+    }
+    .celebLine {
+      border-top: 2px solid #b00606;
+      margin-top:-5px;
+      width: 74%;
+     margin-left: 0px;
+    }
+
+             .round-input {
+                border-radius: 10px;
+                border:1px solid $black;
+                             }
+                             .form-control2 {
+                                height: 30px;
+                                font-size: 11px;
+                                color:$black;
+                             }
+                             .form-control2:focus {
+                                box-shadow: none;
+                                border:none;
+                             }
+             .OuterCeleBox {
+                  margin-bottom: 23px;
+                    .celebBox {
+                        position: relative;
+                   .avatar {
+                        vertical-align: middle;
+                        width: 24px;
+                        height: 24px;
+                        border-radius: 50%;
+                        float: left;
+                       }
+                 .celebName {
+                        margin-top:10px;
+                        margin-left:10px;
+                        font-weight: 500;
+                            }
+                 .social-icon {
+                           border: 1px solid $light-red;
+                            border-radius: 47%;
+                            padding: 2px;
+                            background: $white;
+                            position: absolute;
+                           right: 0;
+                               }
+              }// celeb-box
+} //celeb follow
+}
+}
+

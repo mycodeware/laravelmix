@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67.865" height="67.865" viewBox="0 0 67.865 67.865">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #252525;
+        stroke-width: 4px;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="_-e-ic_block" data-name="-e-ic_block" transform="translate(-926.818 -357.568)">
+    <g id="Ellipse_12" data-name="Ellipse 12" class="cls-1" transform="translate(926.818 357.568)">
+      <circle class="cls-3" cx="33.932" cy="33.932" r="33.932"/>
+      <circle class="cls-4" cx="33.932" cy="33.932" r="31.932"/>
+    </g>
+    <line id="Line_14" data-name="Line 14" class="cls-2" x2="46.122" y2="46.122" transform="translate(937.69 368.439)"/>
+  </g>
+</svg>
